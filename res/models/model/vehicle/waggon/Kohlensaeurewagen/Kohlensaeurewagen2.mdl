@@ -1,0 +1,195 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 4.2723, 1.5543934106827, 3.9691610336304, },
+		bbMin = { -4.4672, -1.5543934106827, -1.4061318635941, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 4.7661581039429, 1.5543934106827, 2.6876463890076, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Kohlensaeurewagen/Kohlensaeurewagen2.mtl", },
+						mesh = "vehicle/waggon/Kohlensaeurewagen/rumpf_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Kohlensaeurewagen/Kohlensaeurewagen2.mtl", },
+						mesh = "vehicle/waggon/Kohlensaeurewagen/rad_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.103, 0, 0.5126, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Kohlensaeurewagen/Kohlensaeurewagen2.mtl", },
+						mesh = "vehicle/waggon/Kohlensaeurewagen/rad_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.3976, 0, 0.5126, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.0242, -0.91779, 1.3350000190735, 1, },					
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.0242, 0.91779, 1.3350000190735, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Kohlensaeurewagen/Kohlensaeurewagen2.mtl", },
+						mesh = "vehicle/waggon/Kohlensaeurewagen/rumpf_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Kohlensaeurewagen/Kohlensaeurewagen2.mtl", },
+						mesh = "vehicle/waggon/Kohlensaeurewagen/rad_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.103, 0, 0.5126, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Kohlensaeurewagen/Kohlensaeurewagen2.mtl", },
+						mesh = "vehicle/waggon/Kohlensaeurewagen/rad_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.3976, 0, 0.5126, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 350,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Kohlensaeurewagen/Kohlensaeurewagen2.mtl", },
+						mesh = "vehicle/waggon/Kohlensaeurewagen/rumpf_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Kohlensaeurewagen/Kohlensaeurewagen2.mtl", },
+						mesh = "vehicle/waggon/Kohlensaeurewagen/rad_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.103, 0, 0.5126, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Kohlensaeurewagen/Kohlensaeurewagen2.mtl", },
+						mesh = "vehicle/waggon/Kohlensaeurewagen/rad_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.3976, 0, 0.5126, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 350,
+			visibleTo = 1000,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1960,
+			yearTo = 2000,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("Kohlensaeurewagen_2_name"),
+			description = _("Kohlensaeurewagen_desc"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 29220,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			blinkInterval = 500,
+			configs = {
+				{
+					axles = { "vehicle/waggon/Kohlensaeurewagen/rad_lod0.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 4, 5, },
+				},
+				{
+					axles = { "vehicle/waggon/Kohlensaeurewagen/rad_lod1.msh", },
+				},
+				{
+					axles = { "vehicle/waggon/Kohlensaeurewagen/rad_lod2.msh", },
+				},
+			},
+			engines = { },
+			soundSet = {
+				horn = "",
+				name = "mw_altGz",
+			},
+			topSpeed = 27.777777778,
+			weight = 15.4,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+				{
+					{
+						{
+							capacity = 40,
+							type = "FOOD",
+						},
+					},
+                    {
+						{
+							capacity = 40,
+							type = "GOODS",
+						},
+					},
+                    {
+						{
+							capacity = 40,
+							type = "PLASTIC",
+						},
+					},
+				},
+			},
+			groupFileName = "vehicle/waggon/Kohlensaeurewagen/menu_Kohlensaeurewagen.mdl",			
+			loadSpeed = 3,
+			maxVolume = 22,
+			maxWeight = 42,
+			multipleUnitOnly = false,
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end
