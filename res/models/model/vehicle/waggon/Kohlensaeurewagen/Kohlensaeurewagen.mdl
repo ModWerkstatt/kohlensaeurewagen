@@ -153,7 +153,7 @@ return {
 			engines = { },
 			soundSet = {
 				horn = "",
-				name = "mw_altGz,
+				name = "mw_altGz",
 			},
 			topSpeed = 27.777777778,
 			weight = 15.4,
