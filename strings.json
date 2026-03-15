@@ -1,0 +1,19 @@
+{
+	"en": {
+		
+        "menu_kohlensaeurewagen" : "Carbon dioxide trolley",		
+        
+		"kohlensaeurewagen_1" : "Carbon dioxide trolley Rommenhöller",
+		"kohlensaeurewagen_2" : "Carbon dioxide trolley AGA",
+        "kohlensaeurewagen_desc" : "The C. G. Rommenhöller carbonic acid plant shipped its liquid carbonic acid to various locations throughout Europe. The carbonic acid was used, for example, for mineral water, beer pressure, cooling systems, petrol tanks or fire extinguishers."
+	},
+	"de": {
+		
+        "menu_kohlensaeurewagen" : "Kohlensäurewagen",
+		
+		"kohlensaeurewagen_1" : "Kohlensaeurewagen Rommenhöller",
+		"kohlensaeurewagen_2" : "Kohlensaeurewagen AGA",
+        "kohlensaeurewagen_desc" : "Das Kohlensäurewerk C. G. Rommenhöller verschickte europaweit seine flüssige Kohlensäure an diverse Standort. Die Kohlensäure wurde genutzt z.B. für Mineralwasser, Bierdruck, Kühlanlagen, Benzintanks oder Feuerlöschapparate."
+
+	}
+}
